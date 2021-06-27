@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Motodo</string>
+    <string name="app_name">MoTodo</string>
+    <string name="mainActivity_description">A simple todo list app</string>
 </resources>

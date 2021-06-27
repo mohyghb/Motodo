@@ -1,2 +1,3 @@
+include ':MoEssentials-release'
 include ':app'
 rootProject.name = "Motodo"

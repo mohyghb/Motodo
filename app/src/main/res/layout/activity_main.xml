@@ -6,4 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include
+        android:id="@+id/layout_mainActivity_titleSubtitle"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/mo_app_bar_height"
+        layout="@layout/mo_title_subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.moofficial.moessentials.MoEssentials.MoUI.MoView.MoViews.MoBars.MoToolBar
+        android:id="@+id/toolbar_mainActivity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/layout_mainActivity_titleSubtitle"
+        app:layout_constraintBottom_toBottomOf="@id/layout_mainActivity_titleSubtitle"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/layout_mainActivity_titleSubtitle"
+        app:layout_constraintEnd_toEndOf="@id/layout_mainActivity_titleSubtitle" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
