@@ -1,5 +1,5 @@
 # MoTodo
-A simple todo list demonstrating Moessentials capabilities
+A simple todo list demonstrating [Moessentials](https://github.com/mohyghb/MoEssentials) capabilities
 
 
 ### Let us go through a simple To-do list app and see how effortlessly you can develop features for this app
